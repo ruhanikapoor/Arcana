@@ -15,8 +15,8 @@ body {
 
 .overlay{
   position: absolute;
-  min-width: 100dvw;
-  min-height: 100dvh;
+  min-width: 100vw;
+  min-height: 100vh;
   background-color: #000000bd;
   z-index: -1;
 }
@@ -146,4 +146,103 @@ button {
 
 .card-inner.flipped {
   transform: rotateY(180deg);
+}
+
+.card-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .card-flex-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .card-description {
+    max-width: 400px;
+    text-align: left;
+  }
+}
+
+.card-description {
+  background: #1c1c3c;
+  border: 2px solid goldenrod;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px gold;
+  font-size: 1.1rem;
+}
+
+.verdict {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px gold;
+}
+
+.verdict.yes {
+  background: #00cc66;
+  color: #fff;
+  box-shadow: 0 0 12px #00cc66;
+}
+
+.verdict.no {
+  background: #cc3333;
+  color: #fff;
+  box-shadow: 0 0 12px #cc3333;
+}
+
+.verdict.maybe {
+  background: #ffcc00;
+  color: #000;
+  box-shadow: 0 0 12px #ffcc00;
+}
+
+.three-card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-block {
+  background: #1c1c3c;
+  border: 2px solid goldenrod;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 0 0 10px gold;
+  text-align: center;
+}
+
+.card-block img {
+  width: 100%;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.card-block.reversed img {
+  transform: rotate(180deg);
+}
+
+.card-block h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.card-block small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #ccc;
 }

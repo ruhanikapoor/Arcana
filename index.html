@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arcana | Daily Tarot</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arcana</title>
+  <link rel="stylesheet" href="style/global.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="landing">
+    <h1 class="fade-in">Arcana</h1>
+    <p class="fade-in delay">Your Tarot Portal</p>
+  </div>
 
-  </head>
-  <body>
-    <div class="overlay"></div>
-    <div class="content">
-      <h1>Welcome to Arcana</h1>
-      <button id="draw-card">Draw a Card</button>
-      <div id="card-container"></div>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+  <script>
+    setTimeout(() => {
+      document.querySelector('.landing').classList.add('fade-out');
+      setTimeout(() => {
+        window.location.href = "pages/menu.html";
+      }, 1000);
+    }, 4000);
+  </script>
+</body>
 </html>
