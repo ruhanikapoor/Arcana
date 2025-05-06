@@ -1,10 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: #0d0d2b;
+  min-height: 100dvh;
+  background: url('assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #f0e6d2;
   font-family: 'Georgia', serif;
   text-align: center;
+}
+
+.overlay{
+  position: absolute;
+  min-width: 100dvw;
+  min-height: 100dvh;
+  background-color: #000000bd;
+  z-index: -1;
+}
+
+.content{
   padding: 2rem;
 }
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px #d4af37;
+}
+
 
 button {
   background: gold;
