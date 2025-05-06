@@ -1,0 +1,782 @@
+[
+  {
+    "name": "The Fool",
+    "number": 0,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "New beginnings, spontaneity, innocence, a free spirit.",
+    "meaning_rev": "Recklessness, risk-taking, being taken advantage of.",
+    "keywords": ["beginnings", "faith", "adventure"],
+    "image": "assets/Cards/00-TheFool.jpg"
+  },
+  {
+    "name": "The Magician",
+    "number": 1,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Manifestation, resourcefulness, power, inspired action.",
+    "meaning_rev": "Manipulation, untapped talents, illusion.",
+    "keywords": ["power", "creation", "focus"],
+    "image": "assets/Cards/01-TheMagician.jpg"
+  },
+  {
+    "name": "The High Priestess",
+    "number": 2,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Intuition, sacred knowledge, divine feminine, subconscious mind.",
+    "meaning_rev": "Secrets, withdrawal, disconnect from intuition.",
+    "keywords": ["intuition", "mystery", "wisdom"],
+    "image": "assets/Cards/02-TheHighPriestess.jpg"
+  },
+  {
+    "name": "The Empress",
+    "number": 3,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Femininity, beauty, nature, nurturing, abundance.",
+    "meaning_rev": "Creative block, dependence on others.",
+    "keywords": ["nurture", "fertility", "growth"],
+    "image": "assets/Cards/03-TheEmpress.jpg"
+  },
+  {
+    "name": "The Emperor",
+    "number": 4,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Authority, structure, control, fatherhood.",
+    "meaning_rev": "Domination, excessive control, rigidity.",
+    "keywords": ["authority", "stability", "power"],
+    "image": "assets/Cards/04-TheEmperor.jpg"
+  },
+  {
+    "name": "The Hierophant",
+    "number": 5,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Tradition, spiritual wisdom, conformity, institutions.",
+    "meaning_rev": "Rebellion, personal beliefs, freedom.",
+    "keywords": ["belief", "spirituality", "structure"],
+    "image": "assets/Cards/05-TheHierophant.jpg"
+  },
+  {
+    "name": "The Lovers",
+    "number": 6,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Love, harmony, relationships, alignment, choices.",
+    "meaning_rev": "Conflict, imbalance, disharmony.",
+    "keywords": ["union", "choice", "balance"],
+    "image": "assets/Cards/06-TheLovers"
+  },
+  {
+    "name": "The Chariot",
+    "number": 7,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Willpower, determination, strength, triumph.",
+    "meaning_rev": "Lack of direction, aggression, self-doubt.",
+    "keywords": ["victory", "focus", "control"],
+    "image": "assets/Cards/07-TheChariot.jpg"
+  },
+  {
+    "name": "Strength",
+    "number": 8,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Courage, persuasion, inner strength, patience.",
+    "meaning_rev": "Insecurity, weakness, self-doubt.",
+    "keywords": ["bravery", "endurance", "compassion"],
+    "image": "assets/Cards/08-Strength.jpg"
+  },
+  {
+    "name": "The Hermit",
+    "number": 9,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Soul-searching, introspection, being alone, inner guidance.",
+    "meaning_rev": "Isolation, loneliness, withdrawal.",
+    "keywords": ["wisdom", "solitude", "truth"],
+    "image": "assets/Cards/09-TheHermit.jpg"
+  },
+  {
+    "name": "Wheel of Fortune",
+    "number": 10,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Change, cycles, fate, decisive moments.",
+    "meaning_rev": "Bad luck, resistance to change, breaking cycles.",
+    "keywords": ["destiny", "karma", "turning point"],
+    "image": "assets/Cards/10-WheelOfFortune.jpg"
+  },
+  {
+    "name": "Justice",
+    "number": 11,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Justice, fairness, truth, law, cause and effect.",
+    "meaning_rev": "Dishonesty, unaccountability, unfairness.",
+    "keywords": ["truth", "accountability", "law"],
+    "image": "assets/Cards/11-Justice.jpg"
+  },
+  {
+    "name": "The Hanged Man",
+    "number": 12,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Pause, surrender, letting go, new perspectives.",
+    "meaning_rev": "Delays, stalling, resistance.",
+    "keywords": ["patience", "transition", "release"],
+    "image": "assets/Cards/12-TheHangedMan.jpg"
+  },
+  {
+    "name": "Death",
+    "number": 13,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Endings, transformation, transition.",
+    "meaning_rev": "Resistance to change, personal transformation, inner purging.",
+    "keywords": ["change", "rebirth", "closure"],
+    "image": "assets/Cards/13-Death.jpg"
+  },
+  {
+    "name": "Temperance",
+    "number": 14,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Balance, moderation, purpose, patience.",
+    "meaning_rev": "Imbalance, excess, lack of long-term vision.",
+    "keywords": ["harmony", "healing", "equilibrium"],
+    "image": "assets/Cards/14-Temperance.jpg"
+  },
+  {
+    "name": "The Devil",
+    "number": 15,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Addiction, materialism, playfulness, restriction.",
+    "meaning_rev": "Releasing limiting beliefs, detachment, independence.",
+    "keywords": ["temptation", "bondage", "shadow"],
+    "image": "assets/Cards/15-TheDevil.jpg"
+  },
+  {
+    "name": "The Tower",
+    "number": 16,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Sudden change, upheaval, chaos, revelation.",
+    "meaning_rev": "Avoidance of disaster, fear of change.",
+    "keywords": ["destruction", "revelation", "upheaval"],
+    "image": "assets/Cards/16-TheTower.jpg"
+  },
+  {
+    "name": "The Star",
+    "number": 17,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Hope, faith, purpose, renewal, spirituality.",
+    "meaning_rev": "Despair, disconnection, lack of faith.",
+    "keywords": ["guidance", "healing", "optimism"],
+    "image": "assets/Cards/17-TheStar.jpg"
+  },
+  {
+    "name": "The Moon",
+    "number": 18,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Illusion, intuition, fear, anxiety, subconscious.",
+    "meaning_rev": "Clarity, truth, overcoming fear.",
+    "keywords": ["dreams", "uncertainty", "mystery"],
+    "image": "assets/Cards/18-TheMoon.jpg"
+  },
+  {
+    "name": "The Sun",
+    "number": 19,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Positivity, fun, warmth, success, vitality.",
+    "meaning_rev": "Negativity, sadness, depression, ego.",
+    "keywords": ["joy", "confidence", "radiance"],
+    "image": "assets/Cards/19-TheSun.jpg"
+  },
+  {
+    "name": "Judgement",
+    "number": 20,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Judgement, rebirth, inner calling, absolution.",
+    "meaning_rev": "Self-doubt, refusal of self-examination.",
+    "keywords": ["awakening", "renewal", "redemption"],
+    "image": "assets/Cards/20-Judgement.jpg"
+  },
+  {
+    "name": "The World",
+    "number": 21,
+    "arcana": "Major",
+    "suit": null,
+    "meaning_up": "Completion, integration, accomplishment, travel.",
+    "meaning_rev": "Lack of closure, delays, incompleteness.",
+    "keywords": ["wholeness", "fulfillment", "success"],
+    "image": "assets/Cards/21-TheWorld.jpg"
+  },
+  {
+    "name": "Ace of Wands",
+    "number": 0,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Inspiration, new opportunities, growth, potential",
+    "meaning_rev": "An emerging idea, lack of direction, distractions, delays",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "ace"],
+    "image": "assets/Cards/Wands01.jpg"
+  },
+  {
+    "name": "Two of Wands",
+    "number": 1,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Future planning, progress, decisions, discovery",
+    "meaning_rev": "Personal goals, inner alignment, fear of unknown, lack of planning",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "two"],
+    "image": "assets/Cards/Wands02.jpg"
+  },
+  {
+    "name": "Three of Wands",
+    "number": 2,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Expansion, foresight, overseas opportunities",
+    "meaning_rev": "Playing small, lack of foresight, unexpected delays",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "three"],
+    "image": "assets/Cards/Wands03.jpg"
+  },
+  {
+    "name": "Four of Wands",
+    "number": 3,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Celebration, joy, harmony, relaxation, homecoming",
+    "meaning_rev": "Personal celebration, inner harmony, conflict with others, transition",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "four"],
+    "image": "assets/Cards/Wands04.jpg"
+  },
+  {
+    "name": "Five of Wands",
+    "number": 4,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Conflict, disagreements, competition, tension, diversity",
+    "meaning_rev": "Inner conflict, conflict avoidance, tension release",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "five"],
+    "image": "assets/Cards/Wands05.jpg"
+  },
+  {
+    "name": "Six of Wands",
+    "number": 5,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Success, public recognition, progress, self-confidence",
+    "meaning_rev": "Private achievement, personal definition of success, fall from grace",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "six"],
+    "image": "assets/Cards/Wands06.jpg"
+  },
+  {
+    "name": "Seven of Wands",
+    "number": 6,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Challenge, competition, protection, perseverance",
+    "meaning_rev": "Exhaustion, giving up, overwhelmed",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "seven"],
+    "image": "assets/Cards/Wands07.jpg"
+  },
+  {
+    "name": "Eight of Wands",
+    "number": 7,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Movement, fast-paced change, action, alignment, air travel",
+    "meaning_rev": "Delays, frustration, resisting change, internal alignment",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "eight"],
+    "image": "assets/Cards/Wands08.jpg"
+  },
+  {
+    "name": "Nine of Wands",
+    "number": 8,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Resilience, courage, persistence, test of faith, boundaries",
+    "meaning_rev": "Inner resources, struggle, overwhelm, defensive",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "nine"],
+    "image": "assets/Cards/Wands09.jpg"
+  },
+  {
+    "name": "Ten of Wands",
+    "number": 9,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Burden, extra responsibility, hard work, completion",
+    "meaning_rev": "Doing it all, carrying the burden, delegation, release",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "ten"],
+    "image": "assets/Cards/Wands10.jpg"
+  },
+  {
+    "name": "Page of Wands",
+    "number": 10,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Inspiration, ideas, discovery, limitless potential, free spirit",
+    "meaning_rev": "Lack of direction, procrastination, newly-formed ideas",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "page"],
+    "image": "assets/Cards/Wands11.jpg"
+  },
+  {
+    "name": "Knight of Wands",
+    "number": 11,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Energy, passion, inspired action, adventure, impulsiveness",
+    "meaning_rev": "Haste, scattered energy, delays, frustration",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "knight"],
+    "image": "assets/Cards/Wands12.jpg"
+  },
+  {
+    "name": "Queen of Wands",
+    "number": 12,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Courage, confidence, independence, social butterfly, determination",
+    "meaning_rev": "Selfishness, jealousy, insecurity, demanding",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "queen"],
+    "image": "assets/Cards/Wands13.jpg"
+  },
+  {
+    "name": "King of Wands",
+    "number": 13,
+    "arcana": "Minor",
+    "suit": "Wands",
+    "meaning_up": "Natural-born leader, vision, entrepreneur, honor",
+    "meaning_rev": "Impulsiveness, haste, ruthless, high expectations",
+    "keywords": ["Inspiration", "Spirituality", "Ambition", "king"],
+    "image": "assets/Cards/Wands14.jpg"
+  },
+  {
+    "name": "Ace of Cups",
+    "number": 0,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Love, new relationships, compassion, creativity",
+    "meaning_rev": "Self-love, intuition, repressed emotions",
+    "keywords": ["Emotions", "Relationships", "Creativity", "ace"],
+    "image": "assets/Cards/Cups01.jpg"
+  },
+  {
+    "name": "Two of Cups",
+    "number": 1,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Unified love, partnership, mutual attraction",
+    "meaning_rev": "Self-love, break-ups, disharmony, distrust",
+    "keywords": ["Emotions", "Relationships", "Creativity", "two"],
+    "image": "assets/Cards/Cups02.jpg"
+  },
+  {
+    "name": "Three of Cups",
+    "number": 2,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Celebration, friendship, creativity, collaborations",
+    "meaning_rev": "Independence, alone time, hardcore partying, gossip",
+    "keywords": ["Emotions", "Relationships", "Creativity", "three"],
+    "image": "assets/Cards/Cups03.jpg"
+  },
+  {
+    "name": "Four of Cups",
+    "number": 3,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Meditation, contemplation, apathy, reevaluation",
+    "meaning_rev": "Retreat, withdrawal, checking in for alignment",
+    "keywords": ["Emotions", "Relationships", "Creativity", "four"],
+    "image": "assets/Cards/Cups04.jpg"
+  },
+  {
+    "name": "Five of Cups",
+    "number": 4,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Regret, failure, disappointment, pessimism",
+    "meaning_rev": "Personal setbacks, self-forgiveness, moving on",
+    "keywords": ["Emotions", "Relationships", "Creativity", "five"],
+    "image": "assets/Cards/Cups05.jpg"
+  },
+  {
+    "name": "Six of Cups",
+    "number": 5,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Revisiting the past, childhood memories, innocence, joy",
+    "meaning_rev": "Living in the past, forgiveness, lacking playfulness",
+    "keywords": ["Emotions", "Relationships", "Creativity", "six"],
+    "image": "assets/Cards/Cups06.jpg"
+  },
+  {
+    "name": "Seven of Cups",
+    "number": 6,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Opportunities, choices, wishful thinking, illusion",
+    "meaning_rev": "Alignment, personal values, overwhelmed by choices",
+    "keywords": ["Emotions", "Relationships", "Creativity", "seven"],
+    "image": "assets/Cards/Cups07.jpg"
+  },
+  {
+    "name": "Eight of Cups",
+    "number": 7,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Disappointment, abandonment, withdrawal, escapism",
+    "meaning_rev": "Trying one more time, indecision, aimless drifting",
+    "keywords": ["Emotions", "Relationships", "Creativity", "eight"],
+    "image": "assets/Cards/Cups08.jpg"
+  },
+  {
+    "name": "Nine of Cups",
+    "number": 8,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Contentment, satisfaction, gratitude, wish come true",
+    "meaning_rev": "Inner happiness, materialism, dissatisfaction, indulgence",
+    "keywords": ["Emotions", "Relationships", "Creativity", "nine"],
+    "image": "assets/Cards/Cups09.jpg"
+  },
+  {
+    "name": "Ten of Cups",
+    "number": 9,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Divine love, blissful relationships, harmony, alignment",
+    "meaning_rev": "Disconnection, misaligned values, struggling relationships",
+    "keywords": ["Emotions", "Relationships", "Creativity", "ten"],
+    "image": "assets/Cards/Cups10.jpg"
+  },
+  {
+    "name": "Page of Cups",
+    "number": 10,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Creative opportunities, intuitive messages, curiosity, possibility",
+    "meaning_rev": "Emotional immaturity, creative blocks, doubting intuition",
+    "keywords": ["Emotions", "Relationships", "Creativity", "page"],
+    "image": "assets/Cards/Cups11.jpg"
+  },
+  {
+    "name": "Knight of Cups",
+    "number": 11,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Romance, charm, \u2018Knight in shining armor\u2019, imagination",
+    "meaning_rev": "Overactive imagination, unrealistic, jealous, moody",
+    "keywords": ["Emotions", "Relationships", "Creativity", "knight"],
+    "image": "assets/Cards/Cups12.jpg"
+  },
+  {
+    "name": "Queen of Cups",
+    "number": 12,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Compassionate, caring, emotionally stable, intuitive, in flow",
+    "meaning_rev": "Inner feelings, self-care, co-dependency, martyrdom",
+    "keywords": ["Emotions", "Relationships", "Creativity", "queen"],
+    "image": "assets/Cards/Cups13.jpg"
+  },
+  {
+    "name": "King of Cups",
+    "number": 13,
+    "arcana": "Minor",
+    "suit": "Cups",
+    "meaning_up": "Emotionally balanced, compassionate, diplomatic",
+    "meaning_rev": "Emotional manipulation, moodiness, volatility",
+    "keywords": ["Emotions", "Relationships", "Creativity", "king"],
+    "image": "assets/Cards/Cups14.jpg"
+  },
+  {
+    "name": "Ace of Swords",
+    "number": 0,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Beginnings, potential, inspiration. (Swords).",
+    "meaning_rev": "Lack of energy, delays. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "ace"],
+    "image": "assets/Cards/Swords01.jpg"
+  },
+  {
+    "name": "Two of Swords",
+    "number": 1,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Balance, partnership, duality. (Swords).",
+    "meaning_rev": "Imbalance, indecision. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "two"],
+    "image": "assets/Cards/Swords02.jpg"
+  },
+  {
+    "name": "Three of Swords",
+    "number": 2,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Teamwork, growth, initial success. (Swords).",
+    "meaning_rev": "Disharmony, delays. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "three"],
+    "image": "assets/Cards/Swords03.jpg"
+  },
+  {
+    "name": "Four of Swords",
+    "number": 3,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Stability, rest, contemplation. (Swords).",
+    "meaning_rev": "Restlessness, burnout. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "four"],
+    "image": "assets/Cards/Swords04.jpg"
+  },
+  {
+    "name": "Five of Swords",
+    "number": 4,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Conflict, change, instability. (Swords).",
+    "meaning_rev": "Avoiding conflict, reconciliation. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "five"],
+    "image": "assets/Cards/Swords05.jpg"
+  },
+  {
+    "name": "Six of Swords",
+    "number": 5,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Success, harmony, generosity. (Swords).",
+    "meaning_rev": "Egoism, lack of reward. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "six"],
+    "image": "assets/Cards/Swords06.jpg"
+  },
+  {
+    "name": "Seven of Swords",
+    "number": 6,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Challenge, perseverance, defense. (Swords).",
+    "meaning_rev": "Giving up, overwhelmed. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "seven"],
+    "image": "assets/Cards/Swords07.jpg"
+  },
+  {
+    "name": "Eight of Swords",
+    "number": 7,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Action, speed, change. (Swords).",
+    "meaning_rev": "Delays, frustration. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "eight"],
+    "image": "assets/Cards/Swords08.jpg"
+  },
+  {
+    "name": "Nine of Swords",
+    "number": 8,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Resilience, courage, persistence. (Swords).",
+    "meaning_rev": "Exhaustion, paranoia. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "nine"],
+    "image": "assets/Cards/Swords09.jpg"
+  },
+  {
+    "name": "Ten of Swords",
+    "number": 9,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Burden, responsibility, stress. (Swords).",
+    "meaning_rev": "Relief, delegation. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "ten"],
+    "image": "assets/Cards/Swords10.jpg"
+  },
+  {
+    "name": "Page of Swords",
+    "number": 10,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Curiosity, message, youthfulness. (Swords).",
+    "meaning_rev": "Insecurity, immaturity. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "page"],
+    "image": "assets/Cards/Swords11.jpg"
+  },
+  {
+    "name": "Knight of Swords",
+    "number": 11,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Ambition, movement, drive. (Swords).",
+    "meaning_rev": "Recklessness, haste. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "knight"],
+    "image": "assets/Cards/Swords12.jpg"
+  },
+  {
+    "name": "Queen of Swords",
+    "number": 12,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Nurturing, maturity, wisdom. (Swords).",
+    "meaning_rev": "Smothering, insecurity. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "queen"],
+    "image": "assets/Cards/Swords13.jpg"
+  },
+  {
+    "name": "King of Swords",
+    "number": 13,
+    "arcana": "Minor",
+    "suit": "Swords",
+    "meaning_up": "Leadership, authority, vision. (Swords).",
+    "meaning_rev": "Rigidity, tyranny. (Swords).",
+    "keywords": ["Intellect", "Truth", "Conflict", "king"],
+    "image": "assets/Cards/Swords14.jpg"
+  },
+  {
+    "name": "Ace of Pentacles",
+    "number": 0,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Beginnings, potential, inspiration. (Pentacles).",
+    "meaning_rev": "Lack of energy, delays. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "ace"],
+    "image": "assets/Cards/Pentacles01.jpg"
+  },
+  {
+    "name": "Two of Pentacles",
+    "number": 1,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Balance, partnership, duality. (Pentacles).",
+    "meaning_rev": "Imbalance, indecision. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "two"],
+    "image": "assets/Cards/Pentacles02.jpg"
+  },
+  {
+    "name": "Three of Pentacles",
+    "number": 2,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Teamwork, growth, initial success. (Pentacles).",
+    "meaning_rev": "Disharmony, delays. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "three"],
+    "image": "assets/Cards/Pentacles03.jpg"
+  },
+  {
+    "name": "Four of Pentacles",
+    "number": 3,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Stability, rest, contemplation. (Pentacles).",
+    "meaning_rev": "Restlessness, burnout. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "four"],
+    "image": "assets/Cards/Pentacles04.jpg"
+  },
+  {
+    "name": "Five of Pentacles",
+    "number": 4,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Conflict, change, instability. (Pentacles).",
+    "meaning_rev": "Avoiding conflict, reconciliation. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "five"],
+    "image": "assets/Cards/Pentacles05.jpg"
+  },
+  {
+    "name": "Six of Pentacles",
+    "number": 5,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Success, harmony, generosity. (Pentacles).",
+    "meaning_rev": "Egoism, lack of reward. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "six"],
+    "image": "assets/Cards/Pentacles06.jpg"
+  },
+  {
+    "name": "Seven of Pentacles",
+    "number": 6,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Challenge, perseverance, defense. (Pentacles).",
+    "meaning_rev": "Giving up, overwhelmed. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "seven"],
+    "image": "assets/Cards/Pentacles07.jpg"
+  },
+  {
+    "name": "Eight of Pentacles",
+    "number": 7,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Action, speed, change. (Pentacles).",
+    "meaning_rev": "Delays, frustration. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "eight"],
+    "image": "assets/Cards/Pentacles08.jpg"
+  },
+  {
+    "name": "Nine of Pentacles",
+    "number": 8,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Resilience, courage, persistence. (Pentacles).",
+    "meaning_rev": "Exhaustion, paranoia. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "nine"],
+    "image": "assets/Cards/Pentacles09.jpg"
+  },
+  {
+    "name": "Ten of Pentacles",
+    "number": 9,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Burden, responsibility, stress. (Pentacles).",
+    "meaning_rev": "Relief, delegation. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "ten"],
+    "image": "assets/Cards/Pentacles10.jpg"
+  },
+  {
+    "name": "Page of Pentacles",
+    "number": 10,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Curiosity, message, youthfulness. (Pentacles).",
+    "meaning_rev": "Insecurity, immaturity. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "page"],
+    "image": "assets/Cards/Pentacles11.jpg"
+  },
+  {
+    "name": "Knight of Pentacles",
+    "number": 11,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Ambition, movement, drive. (Pentacles).",
+    "meaning_rev": "Recklessness, haste. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "knight"],
+    "image": "assets/Cards/Pentacles12.jpg"
+  },
+  {
+    "name": "Queen of Pentacles",
+    "number": 12,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Nurturing, maturity, wisdom. (Pentacles).",
+    "meaning_rev": "Smothering, insecurity. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "queen"],
+    "image": "assets/Cards/Pentacles13.jpg"
+  },
+  {
+    "name": "King of Pentacles",
+    "number": 13,
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "meaning_up": "Leadership, authority, vision. (Pentacles).",
+    "meaning_rev": "Rigidity, tyranny. (Pentacles).",
+    "keywords": ["Wealth", "Career", "Materiality", "king"],
+    "image": "assets/Cards/Pentacles14.jpg"
+  }
+]
