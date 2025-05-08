@@ -111,3 +111,83 @@ if (isThreePage) {
     document.getElementById("three-container").innerHTML = html
   })
 }
+
+const isEightPage = window.location.pathname.includes("eightcard.html")
+
+if (isEightPage) {
+  document.getElementById("eight-btn").addEventListener("click", () => {
+    if (cards.length < 8) return
+
+    const picked = []
+    while (picked.length < 8) {
+      const card = cards[Math.floor(Math.random() * cards.length)]
+      if (!picked.includes(card)) picked.push(card)
+    }
+
+    const positions = [
+      "Present", "Challenge", "Past", "Future",
+      "Conscious", "Subconscious", "Advice", "Outcome"
+    ]
+
+    const html = picked.map((card, i) => {
+      const isReversed = Math.random() < 0.5
+      const meaning = isReversed ? card.meaning_rev : card.meaning_up
+
+      return `
+        <div class="card-block ${isReversed ? "reversed" : ""}">
+          <h2>${positions[i]}</h2>
+          <img src="../${card.image}" alt="${card.name}">
+          <h3>${card.name} ${isReversed ? "(Reversed)" : ""}</h3>
+          <p>${meaning}</p>
+          <small><strong>Keywords:</strong> ${isReversed ? card.keywords_reversed.join(", ") : card.keywords_upright.join(", ")}</small>
+        </div>
+      `
+    }).join("")
+
+    document.getElementById("eight-container").innerHTML = html
+  })
+}
+
+const isCelticPage = window.location.pathname.includes("tencard.html")
+
+if (isCelticPage) {
+  document.getElementById("celtic-btn").addEventListener("click", () => {
+    if (cards.length < 10) return
+
+    const picked = []
+    while (picked.length < 10) {
+      const card = cards[Math.floor(Math.random() * cards.length)]
+      if (!picked.includes(card)) picked.push(card)
+    }
+
+    const positions = [
+      "Significator (Present)",
+      "Challenge (Crosses You)",
+      "Subconscious (Root)",
+      "Past Influence",
+      "Conscious (Goal)",
+      "Near Future",
+      "Self (Your Attitude)",
+      "Environment (Others)",
+      "Hopes and Fears",
+      "Outcome"
+    ]
+
+    const html = picked.map((card, i) => {
+      const isReversed = Math.random() < 0.5
+      const meaning = isReversed ? card.meaning_rev : card.meaning_up
+
+      return `
+        <div class="card-block ${isReversed ? "reversed" : ""}">
+          <h2>${positions[i]}</h2>
+          <img src="../${card.image}" alt="${card.name}">
+          <h3>${card.name} ${isReversed ? "(Reversed)" : ""}</h3>
+          <p>${meaning}</p>
+          <small><strong>Keywords:</strong> ${isReversed ? card.keywords_reversed.join(", ") : card.keywords_upright.join(", ")}</small>
+        </div>
+      `
+    }).join("")
+
+    document.getElementById("celtic-container").innerHTML = html
+  })
+}

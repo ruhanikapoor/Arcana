@@ -25,14 +25,6 @@ body {
   padding: 2rem;
 }
 
-h1 {
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 2.8rem;
-  margin-bottom: 1.5rem;
-  text-shadow: 0 0 10px #d4af37;
-}
-
-
 button {
   background: gold;
   color: #000;
@@ -245,4 +237,37 @@ button {
   display: block;
   margin-top: 0.5rem;
   color: #ccc;
+}
+
+.grid-8 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.card-block {
+  background: #111;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s;
+}
+.card-block.reversed img {
+  transform: rotate(180deg);
+}
+.card-block img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.grid-celtic {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  margin-top: 2rem;
 }
