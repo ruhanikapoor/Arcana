@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let cards = []
 
-  fetch("/cards.json")
+  fetch("../cards.json")
     .then((response) => response.json())
     .then((data) => {
       cards = data
