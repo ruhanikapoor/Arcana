@@ -49,7 +49,7 @@ fetch(basePath)
 
           document.getElementById("one-card-container").innerHTML = `
           <div class="card ${isReversed ? "reversed" : ""}">
-            <img src="../${card.image}" alt="${card.name}">
+            <img src="../assets/Cards/${card.image}" alt="${card.name}">
           </div>
           <div class="card-description">
             <h2>${card.name} ${isReversed ? "(Reversed)" : ""}</h2>
@@ -82,7 +82,7 @@ fetch(basePath)
 
           document.getElementById("yesno-container").innerHTML = `
           <div class="card ${isReversed ? "reversed" : ""}">
-            <img src="../${card.image}" alt="${card.name}">
+            <img src="../assets/Cards/${card.image}" alt="${card.name}">
           </div>
           <div class="card-description">
             <h2>${card.name} ${isReversed ? "(Reversed)" : ""}</h2>
@@ -128,7 +128,7 @@ fetch(basePath)
               </div>
               <div class = "reading">
                 <div class="card ${isReversed ? "reversed" : ""}">
-                  <img src="../${card.image}" alt="${card.name}">
+                  <img src="../assets/Cards/${card.image}" alt="${card.name}">
                 </div>
                 <div class="card-description">
                   <h3>${card.name} ${isReversed ? "(Reversed)" : ""}</h3>
@@ -185,7 +185,7 @@ fetch(basePath)
               </div>
               <div class = "reading">
                 <div class="card ${isReversed ? "reversed" : ""}">
-                  <img src="../${card.image}" alt="${card.name}">
+                  <img src="../assets/Cards/${card.image}" alt="${card.name}">
                 </div>
                 <div class="card-description">
                   <h3>${card.name} ${isReversed ? "(Reversed)" : ""}</h3>
@@ -244,7 +244,7 @@ fetch(basePath)
               </div>
               <div class = "reading">
                 <div class="card ${isReversed ? "reversed" : ""}">
-                  <img src="../${card.image}" alt="${card.name}">
+                  <img src="../assets/Cards/${card.image}" alt="${card.name}">
                 </div>
                 <div class="card-description">
                   <h3>${card.name} ${isReversed ? "(Reversed)" : ""}</h3>

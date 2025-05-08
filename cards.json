@@ -10,7 +10,7 @@
     "keywords_reversed" : ["reckless, careless, distracted, naive, foolish, gullible, stale, dull"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/00-TheFool.jpg"
+    "image": "00-TheFool.jpg"
   },
   {
     "name": "The Magician",
@@ -23,7 +23,7 @@
     "keywords_reversed" : ["manipulation, cunning, trickery, wasted talent, illusion, deception"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "Yes, but there are potential hurdles ahead.",
-    "image": "assets/Cards/01-TheMagician.jpg"
+    "image": "01-TheMagician.jpg"
   },
   {
     "name": "The High Priestess",
@@ -36,7 +36,7 @@
     "keywords_reversed" : ["repressed intuition, hidden motives, superficiality, confusion, cognitive dissonance"],
     "verdict_upright" : "Yes (conditional)",
     "verdict_reversed" : "No (uncertain)",
-    "image": "assets/Cards/02-TheHighPriestess.jpg"
+    "image": "02-TheHighPriestess.jpg"
   },
   {
     "name": "The Empress",
@@ -49,7 +49,7 @@
     "keywords_reversed" : ["insecurity, overbearing, negligence, smothering, lack of growth, lack of progress"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No (conditional)",
-    "image": "assets/Cards/03-TheEmpress.jpg"
+    "image": "03-TheEmpress.jpg"
   },
   {
     "name": "The Emperor",
@@ -62,7 +62,7 @@
     "keywords_reversed" : ["tyrant, domineering, rigid, stubborn, lack of discipline, recklessness"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No (cautious)",
-    "image": "assets/Cards/04-TheEmperor.jpg"
+    "image": "04-TheEmperor.jpg"
   },
   {
     "name": "The Hierophant",
@@ -75,7 +75,7 @@
     "keywords_reversed" : ["rebellion, unconventionality, non-conformity, new methods, ignorance"],
     "verdict_upright" : "Yes (conditional)",
     "verdict_reversed" : "Yes (uncertain)",
-    "image": "assets/Cards/05-TheHierophant.jpg"
+    "image": "05-TheHierophant.jpg"
   },
   {
     "name": "The Lovers",
@@ -88,7 +88,7 @@
     "keywords_reversed" : ["disharmony, imbalance, conflict, detachment, bad choices, indecision"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/06-TheLovers.jpg"
+    "image": "06-TheLovers.jpg"
   },
   {
     "name": "The Chariot",
@@ -101,7 +101,7 @@
     "keywords_reversed" : ["forceful, no direction, no control, powerless, aggression, obstacles"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/07-TheChariot.jpg"
+    "image": "07-TheChariot.jpg"
   },
   {
     "name": "Strength",
@@ -114,7 +114,7 @@
     "keywords_reversed" : ["self-doubt, weakness, low confidence, inadequacy, cowardice, forcefulness"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/08-Strength.jpg"
+    "image": "08-Strength.jpg"
   },
   {
     "name": "The Hermit",
@@ -127,7 +127,7 @@
     "keywords_reversed" : ["loneliness, isolation, recluse, being anti-social, rejection, returning to society"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/09-TheHermit.jpg"
+    "image": "09-TheHermit.jpg"
   },
   {
     "name": "Wheel of Fortune",
@@ -140,7 +140,7 @@
     "keywords_reversed" : ["bad luck, lack of control, clinging to control, unwelcome changes, delays"],
     "verdict_upright" : "Yes (cautious)",
     "verdict_reversed" : "Yes (probable)",
-    "image": "assets/Cards/10-WheelOfFortune.jpg"
+    "image": "10-WheelOfFortune.jpg"
   },
   {
     "name": "Justice",
@@ -153,7 +153,7 @@
     "keywords_reversed" : ["injustice, retribution, dishonesty, corruption, dishonesty, unfairness, avoiding accountability"],
     "verdict_upright" : "Yes (for positive action)",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/11-Justice.jpg"
+    "image": "11-Justice.jpg"
   },
   {
     "name": "The Hanged Man",
@@ -166,7 +166,7 @@
     "keywords_reversed" : ["stalling, disinterest, stagnation, avoiding sacrifice, standstill, apathy"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/12-TheHangedMan.jpg"
+    "image": "12-TheHangedMan.jpg"
   },
   {
     "name": "Death",
@@ -179,7 +179,7 @@
     "keywords_reversed" : ["fear of change, repeating negative patterns, resisting change, stagnancy, decay"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/13-Death.jpg"
+    "image": "13-Death.jpg"
   },
   {
     "name": "Temperance",
@@ -192,7 +192,7 @@
     "keywords_reversed" : ["imbalance, excess, extremes, discord, recklessness, hastiness"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/14-Temperance.jpg"
+    "image": "14-Temperance.jpg"
   },
   {
     "name": "The Devil",
@@ -205,7 +205,7 @@
     "keywords_reversed" : ["independence, freedom, revelation, release, reclaiming power, reclaiming control"],
     "verdict_upright" : "No",
     "verdict_reversed" : "Yes",
-    "image": "assets/Cards/15-TheDevil.jpg"
+    "image": "15-TheDevil.jpg"
   },
   {
     "name": "The Tower",
@@ -218,7 +218,7 @@
     "keywords_reversed" : ["averting disaster, delaying the inevitable, resisting change"],
     "verdict_upright" : "No",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/16-TheTower.jpg"
+    "image": "16-TheTower.jpg"
   },
   {
     "name": "The Star",
@@ -231,7 +231,7 @@
     "keywords_reversed" : ["hopelessness, despair, negativity, lack of faith, despondent"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No (conditional)",
-    "image": "assets/Cards/17-TheStar.jpg"
+    "image": "17-TheStar.jpg"
   },
   {
     "name": "The Moon",
@@ -244,7 +244,7 @@
     "keywords_reversed" : ["fear, deception, anxiety, misunderstanding, misinterpretation, clarity, understanding"],
     "verdict_upright" : "No (cautious)",
     "verdict_reversed" : "No (cautious)",
-    "image": "assets/Cards/18-TheMoon.jpg"
+    "image": "18-TheMoon.jpg"
   },
   {
     "name": "The Sun",
@@ -257,7 +257,7 @@
     "keywords_reversed" : ["blocked happiness, excessive enthusiasm, pessimism, unrealistic expectations, conceitedness"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "Yes, but there are potential hurdles ahead.",
-    "image": "assets/Cards/19-TheSun.jpg"
+    "image": "19-TheSun.jpg"
   },
   {
     "name": "Judgement",
@@ -270,7 +270,7 @@
     "keywords_reversed" : ["self-doubt, lack of self-awareness, failure to learn lessons, self-loathing"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No (probable)",
-    "image": "assets/Cards/20-Judgement.jpg"
+    "image": "20-Judgement.jpg"
   },
   {
     "name": "The World",
@@ -283,7 +283,7 @@
     "keywords_reversed" : ["lack of closure, lack of achievement, feeling incomplete, emptiness"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No (cautious)",
-    "image": "assets/Cards/21-TheWorld.jpg"
+    "image": "21-TheWorld.jpg"
   },
   {
     "name": "Ace of Wands",
@@ -296,7 +296,7 @@
     "keywords_reversed" : ["delays, blocks, lack of passion, lack of energy, hesitancy, creative blocks"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands01.jpg"
+    "image": "Wands01.jpg"
   },
   {
     "name": "Two of Wands",
@@ -309,7 +309,7 @@
     "keywords_reversed" : ["bad planning, overanalyzing, not taking action, playing it safe, avoiding risk"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands02.jpg"
+    "image": "Wands02.jpg"
   },
   {
     "name": "Three of Wands",
@@ -322,7 +322,7 @@
     "keywords_reversed" : ["restriction, limitations, lack of progress, obstacles, delays, frustration"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands03.jpg"
+    "image": "Wands03.jpg"
   },
   {
     "name": "Four of Wands",
@@ -335,7 +335,7 @@
     "keywords_reversed" : ["lack of support, instability, feeling unwelcome, transience, lack of roots, home conflict"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands04.jpg"
+    "image": "Wands04.jpg"
   },
   {
     "name": "Five of Wands",
@@ -348,7 +348,7 @@
     "keywords_reversed" : ["end of conflict, cooperation, agreements, truces, harmony, peace, avoiding conflict"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands05.jpg"
+    "image": "Wands05.jpg"
   },
   {
     "name": "Six of Wands",
@@ -361,7 +361,7 @@
     "keywords_reversed" : ["failure, lack of recognition, no rewards, lack of achievement"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands06.jpg"
+    "image": "Wands06.jpg"
   },
   {
     "name": "Seven of Wands",
@@ -374,7 +374,7 @@
     "keywords_reversed" : ["giving up, admitting defeat, yielding, lack of self belief, surrender"],
     "verdict_upright" : "No",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands07.jpg"
+    "image": "Wands07.jpg"
   },
   {
     "name": "Eight of Wands",
@@ -387,7 +387,7 @@
     "keywords_reversed" : ["waiting, slowness, chaos, delays, losing momentum, hastiness, being unprepared"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands08.jpg"
+    "image": "Wands08.jpg"
   },
   {
     "name": "Nine of Wands",
@@ -400,7 +400,7 @@
     "keywords_reversed" : ["stubbornness, rigidity, defensiveness, refusing compromise, giving up"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands09.jpg"
+    "image": "Wands09.jpg"
   },
   {
     "name": "Ten of Wands",
@@ -413,7 +413,7 @@
     "keywords_reversed" : ["failure to delegate, shouldering too much responsibility, collapse, breakdown"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands10.jpg"
+    "image": "Wands10.jpg"
   },
   {
     "name": "Page of Wands",
@@ -426,7 +426,7 @@
     "keywords_reversed" : ["hasty, impatient, lacking ideas, tantrums, laziness, boring, unreliable, distracted"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands11.jpg"
+    "image": "Wands11.jpg"
   },
   {
     "name": "Knight of Wands",
@@ -439,7 +439,7 @@
     "keywords_reversed" : ["arrogant, reckless, impatient, lack of self control, passive, volatile, domineering"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands12.jpg"
+    "image": "Wands12.jpg"
   },
   {
     "name": "Queen of Wands",
@@ -452,7 +452,7 @@
     "keywords_reversed" : ["demanding, vengeful, low confidence, jealous, selfish, temperamental, bully"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands13.jpg"
+    "image": "Wands13.jpg"
   },
   {
     "name": "King of Wands",
@@ -465,7 +465,7 @@
     "keywords_reversed" : ["forceful, domineering, tyrant, vicious, powerless, ineffective, weak leader"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Wands14.jpg"
+    "image": "Wands14.jpg"
   },
   {
     "name": "Ace of Cups",
@@ -478,7 +478,7 @@
     "keywords_reversed" : ["separation, rejection, division, imbalance, tension, bad communication, withdrawal"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups01.jpg"
+    "image": "Cups01.jpg"
   },
   {
     "name": "Two of Cups",
@@ -491,7 +491,7 @@
     "keywords_reversed" : ["separation, rejection, division, imbalance, tension, bad communication, withdrawal"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups02.jpg"
+    "image": "Cups02.jpg"
   },
   {
     "name": "Three of Cups",
@@ -504,7 +504,7 @@
     "keywords_reversed" : ["gossip, scandal, excess, isolation, loneliness, solitude, imbalanced social life"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups03.jpg"
+    "image": "Cups03.jpg"
   },
   {
     "name": "Four of Cups",
@@ -517,7 +517,7 @@
     "keywords_reversed" : ["clarity, awareness, acceptance, choosing happiness, depression, negativity"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups04.jpg"
+    "image": "Cups04.jpg"
   },
   {
     "name": "Five of Cups",
@@ -530,7 +530,7 @@
     "keywords_reversed" : ["acceptance, moving on, finding peace, contentment, seeing positives"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups05.jpg"
+    "image": "Cups05.jpg"
   },
   {
     "name": "Six of Cups",
@@ -543,7 +543,7 @@
     "keywords_reversed" : ["stuck in past, moving forward, leaving home, independence"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups06.jpg"
+    "image": "Cups06.jpg"
   },
   {
     "name": "Seven of Cups",
@@ -556,7 +556,7 @@
     "keywords_reversed" : ["lack of purpose, disarray, confusion, diversion, distractions, clarity, making choices"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups07.jpg"
+    "image": "Cups07.jpg"
   },
   {
     "name": "Eight of Cups",
@@ -569,7 +569,7 @@
     "keywords_reversed" : ["stagnation, monotony, accepting less, avoidance, fear of change, staying in bad situation"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups08.jpg"
+    "image": "Cups08.jpg"
   },
   {
     "name": "Nine of Cups",
@@ -582,7 +582,7 @@
     "keywords_reversed" : ["unhappiness, lack of fulfilment, disappointment, underachievement, arrogance, snobbery"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups09.jpg"
+    "image": "Cups09.jpg"
   },
   {
     "name": "Ten of Cups",
@@ -595,7 +595,7 @@
     "keywords_reversed" : ["unhappy home, separation, domestic conflict, disharmony, isolation​"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups10.jpg"
+    "image": "Cups10.jpg"
   },
   {
     "name": "Page of Cups",
@@ -608,7 +608,7 @@
     "keywords_reversed" : ["emotional vulnerability, immaturity, neglecting inner child, escapism, insecurity"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups11.jpg"
+    "image": "Cups11.jpg"
   },
   {
     "name": "Knight of Cups",
@@ -621,7 +621,7 @@
     "keywords_reversed" : ["disappointment, tantrums, moodiness, turmoil, avoiding conflict, vanity"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups12.jpg"
+    "image": "Cups12.jpg"
   },
   {
     "name": "Queen of Cups",
@@ -634,7 +634,7 @@
     "keywords_reversed" : ["insecurity, giving too much, overly-sensitive, needy, fragile, dependence, martyrdom"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups13.jpg"
+    "image": "Cups13.jpg"
   },
   {
     "name": "King of Cups",
@@ -647,7 +647,7 @@
     "keywords_reversed" : ["overwhelmed, anxious, cold, repressed, withdrawn, manipulative, selfish"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Cups14.jpg"
+    "image": "Cups14.jpg"
   },
   {
     "name": "Ace of Swords",
@@ -660,7 +660,7 @@
     "keywords_reversed" : ["confusion, miscommunication, hostility, arguments, destruction, brutality"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords01.jpg"
+    "image": "Swords01.jpg"
   },
   {
     "name": "Two of Swords",
@@ -673,7 +673,7 @@
     "keywords_reversed" : ["indecision, hesitancy, anxiety, too much information, no right choice, truth revealed"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords02.jpg"
+    "image": "Swords02.jpg"
   },
   {
     "name": "Three of Swords",
@@ -686,7 +686,7 @@
     "keywords_reversed" : ["healing, forgiveness, recovery, reconciliation, repressing emotions"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords03.jpg"
+    "image": "Swords03.jpg"
   },
   {
     "name": "Four of Swords",
@@ -699,7 +699,7 @@
     "keywords_reversed" : ["recovery, awakening, re-entering world, release from isolation, restlessness, burnout"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords04.jpg"
+    "image": "Swords04.jpg"
   },
   {
     "name": "Five of Swords",
@@ -712,7 +712,7 @@
     "keywords_reversed" : ["reconciliation, resolution, compromise, revenge, regret, remorse, cutting losses"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords05.jpg"
+    "image": "Swords05.jpg"
   },
   {
     "name": "Six of Swords",
@@ -725,7 +725,7 @@
     "keywords_reversed" : ["stuck in past, returning to trouble, running away from problems, trapped"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords06.jpg"
+    "image": "Swords06.jpg"
   },
   {
     "name": "Seven of Swords",
@@ -738,7 +738,7 @@
     "keywords_reversed" : ["confession, conscience, regret, maliciousness, truth revealed"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords07.jpg"
+    "image": "Swords07.jpg"
   },
   {
     "name": "Eight of Swords",
@@ -751,7 +751,7 @@
     "keywords_reversed" : ["freedom, release, taking control, survivor, facing fears, empowered, surrender"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords08.jpg"
+    "image": "Swords08.jpg"
   },
   {
     "name": "Nine of Swords",
@@ -764,7 +764,7 @@
     "keywords_reversed" : ["recovery, learning to cope, facing life, finding help, shame, guilt, mental health issues"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords09.jpg"
+    "image": "Swords09.jpg"
   },
   {
     "name": "Ten of Swords",
@@ -777,7 +777,7 @@
     "keywords_reversed" : ["survival, improvement, healing, lessons learned, despair, relapse"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords10.jpg"
+    "image": "Swords10.jpg"
   },
   {
     "name": "Page of Swords",
@@ -790,7 +790,7 @@
     "keywords_reversed" : ["scatterbrained, cynical, sarcastic, gossipy, insulting, rude, lack of planning"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords11.jpg"
+    "image": "Swords11.jpg"
   },
   {
     "name": "Knight of Swords",
@@ -803,7 +803,7 @@
     "keywords_reversed" : ["rude, tactless, forceful, bully, aggressive, vicious, ruthless, arrogant"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords12.jpg"
+    "image": "Swords12.jpg"
   },
   {
     "name": "Queen of Swords",
@@ -816,7 +816,7 @@
     "keywords_reversed" : ["pessimistic, malicious, manipulative, harsh, bitter, spiteful, cruel, deceitful, unforgiving"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords13.jpg"
+    "image": "Swords13.jpg"
   },
   {
     "name": "King of Swords",
@@ -829,7 +829,7 @@
     "keywords_reversed" : ["irrational, dictator, oppressive, inhumane, controlling, cold, ruthless, dishonest"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Swords14.jpg"
+    "image": "Swords14.jpg"
   },
   {
     "name": "Ace of Pentacles",
@@ -842,7 +842,7 @@
     "keywords_reversed" : ["missed chances, scarcity, deficiency, instability, stinginess, bad investments"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles01.jpg"
+    "image": "Pentacles01.jpg"
   },
   {
     "name": "Two of Pentacles",
@@ -855,7 +855,7 @@
     "keywords_reversed" : ["imbalance, unorganized, overwhelmed, messiness, chaos, overextending"],
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles02.jpg"
+    "image": "Pentacles02.jpg"
   },
   {
     "name": "Three of Pentacles",
@@ -868,7 +868,7 @@
     "keywords_reversed" : ["lack of cohesion, lack of teamwork, apathy, poor motivation, conflict, ego, competition"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles03.jpg"
+    "image": "Pentacles03.jpg"
   },
   {
     "name": "Four of Pentacles",
@@ -881,7 +881,7 @@
     "keywords_reversed" : ["generosity, giving, spending, openness, financial insecurity, reckless spending"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles04.jpg"
+    "image": "Pentacles04.jpg"
   },
   {
     "name": "Five of Pentacles",
@@ -893,7 +893,7 @@
     "keywords_reversed" : ["positive changes, recovery from loss, overcoming adversity, forgiveness, feeling welcomed"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles05.jpg"
+    "image": "Pentacles05.jpg"
   },
   {
     "name": "Six of Pentacles",
@@ -906,7 +906,7 @@
     "keywords_reversed" : ["power dynamics, abuse of generosity, strings attached gifts, inequality, extortion"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles06.jpg"
+    "image": "Pentacles06.jpg"
   },
   {
     "name": "Seven of Pentacles",
@@ -919,7 +919,7 @@
     "keywords_reversed" : ["unfinished work, procrastination, low effort, waste, lack of growth, setbacks, impatience, lack of reward"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles07.jpg"
+    "image": "Pentacles07.jpg"
   },
   {
     "name": "Eight of Pentacles",
@@ -932,7 +932,7 @@
     "keywords_reversed" : ["lack of quality, rushed job, bad reputation, lack of motivation, mediocrity, laziness, low skill, dead-end job"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles08.jpg"
+    "image": "Pentacles08.jpg"
   },
   {
     "name": "Nine of Pentacles",
@@ -945,7 +945,7 @@
     "keywords_reversed" : ["being guarded, living beyond means, material instability, reckless spending, superficiality"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles09.jpg"
+    "image": "Pentacles09.jpg"
   },
   {
     "name": "Ten of Pentacles",
@@ -958,7 +958,7 @@
     "keywords_reversed" : ["family disputes, bankruptcy, debt, fleeting success, conflict over money, instability, breaking traditions"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles10.jpg"
+    "image": "Pentacles10.jpg"
   },
   {
     "name": "Page of Pentacles",
@@ -971,7 +971,7 @@
     "keywords_reversed" : ["foolish, immature, irresponsible, lazy, underachiever, procrastinator, missed chances, poor prospects"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles11.jpg"
+    "image": "Pentacles11.jpg"
   },
   {
     "name": "Knight of Pentacles",
@@ -984,7 +984,7 @@
     "keywords_reversed" : ["workaholic, laziness, dull, boring, no initiative, cheap, irresponsible, gambler, risky investments"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles12.jpg"
+    "image": "Pentacles12.jpg"
   },
   {
     "name": "Queen of Pentacles",
@@ -997,7 +997,7 @@
     "keywords_reversed" : ["selfish, unkempt, jealous, insecure, greedy, materialistic, gold digger, intolerant, self-absorbed, envious"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles13.jpg"
+    "image": "Pentacles13.jpg"
   },
   {
     "name": "King of Pentacles",
@@ -1010,6 +1010,6 @@
     "keywords_reversed" : ["greed, materialistic, wasteful, chauvanist, poor financial decisions, gambler, exploitative, possessive"], 
     "verdict_upright" : "Yes",
     "verdict_reversed" : "No",
-    "image": "assets/Cards/Pentacles14.jpg"
+    "image": "Pentacles14.jpg"
   }
 ]
