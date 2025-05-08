@@ -7,13 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let cards = []
 
-  fetch("../cards.json")
-    .then((response) => response.json())
-    .then((data) => {
-      cards = data
-      setupEventListeners()
-    })
-    .catch((error) => console.error("Could not load cards:", error))
+  const basePath = window.location.pathname.includes('/pages/') ? '../cards.json' : 'cards.json'
+
+fetch(basePath)
+  .then((res) => res.json())
+  .then((data) => {
+    cards = data
+    setupEventListeners()
+  })
+  .catch((error) => console.error("Could not load cards:", error))
 
   function drawRandomCard() {
     if (cards.length === 0) return null
