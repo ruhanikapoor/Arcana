@@ -8,7 +8,7 @@
 
 body {
   min-height: 100dvh;
-  background-color: #030324;
+  background-color: #00000f;
   color: #f0e6d2;
   text-align: center;
   display: flex;
@@ -149,28 +149,28 @@ button {
 .verdict {
   font-size: 1.8rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
+}
 
-  .yes {
-    background: #00cc66;
-    color: #fff;
-    box-shadow: 0 0 12px #00cc66;
-  }
-  
-  .no {
-    background: #cc3333;
-    color: #fff;
-    box-shadow: 0 0 12px #cc3333;
-  }
-  
-  .maybe {
-    background: #ffcc00;
-    color: #000;
-    box-shadow: 0 0 12px #ffcc00;
-  }
+.yes {
+  background: #00cc66;
+  color: #fff;
+  box-shadow: 0 0 12px #00cc66;
+}
 
+.no {
+  background: #cc3333;
+  color: #fff;
+  box-shadow: 0 0 12px #cc3333;
+}
+
+.maybe {
+  background: #ffcc00;
+  color: #000;
+  box-shadow: 0 0 12px #ffcc00;
 }
 
 .multi-card-spread {
@@ -230,4 +230,29 @@ button {
   .card, .card-block {
     max-width: 90%;
   }
+}
+
+.spread-card {
+  display: block;
+  background: linear-gradient(145deg, #1e1a2e, #141021);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  color: #f0e6d2;
+  text-decoration: none;
+  font-family: "Quintessential", serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.1);
+  transition: all 0.3s ease;
+  max-width: 240px;
+  width: 100%;
+  text-align: center;
+}
+
+.spread-card:hover {
+  background: linear-gradient(145deg, #2d2540, #1b152a);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 16px gold;
+  color: #fff7cc;
 }
